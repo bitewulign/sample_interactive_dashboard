@@ -7,7 +7,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Load the dataset 
-df = pd.read_csv('data/_Preprocessed_ObesityDataSet_raw_and_data_sinthetic.csv')
+df = pd.read_csv('data/Cleaned_ObesityDataSet_raw_and_data_sinthetic.csv')
 
 # Selecting relevant features
 features = list(df.columns) 
